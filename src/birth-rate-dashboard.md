@@ -8,7 +8,7 @@ toc: false
     <span class="portaljs-banner-icon">👶</span>
     <div class="portaljs-banner-text">
       <p class="portaljs-banner-title">World Bank Birth Rate Indicator</p>
-      <p class="portaljs-banner-description">Explore the global demographic transition — crude birth rates per 1,000 people (1960-2016)</p>
+      <p class="portaljs-banner-description">Explore the global demographic transition — crude birth rates per 1,000 people (1960-2023)</p>
     </div>
   </div>
   <a href="https://data.worldbank.org/indicator/SP.DYN.CBRT.IN" target="_blank" rel="noopener noreferrer" class="portaljs-banner-cta">
@@ -267,7 +267,7 @@ toc: false
 
 <div class="hero">
   <h1>Global Birth Rate Dashboard</h1>
-  <p>The Demographic Transition — Tracking worldwide fertility decline from 1960 to 2016</p>
+  <p>The Demographic Transition — Tracking worldwide fertility decline from 1960 to 2023</p>
 </div>
 
 ```js
@@ -981,7 +981,7 @@ function rateOfChangeChart({width} = {}) {
 ```
 
 <div class="chart-container chart-large">
-  <h3>🌍 Global Birth Rate Trend (1960-2016) — Blue: Global Average, Orange: ${selectedCountry}</h3>
+  <h3>🌍 Global Birth Rate Trend (1960-2023) — Blue: Global Average, Orange: ${selectedCountry}</h3>
   ${resize((width) => globalTrendChart({width}))}
 </div>
 
